@@ -1,0 +1,44 @@
+.app__hotdrop{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem .5rem;
+}
+
+.app__hotdrop-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h7{
+        color: purple;
+        font-size: .9rem;
+        font-weight: 500;
+    }
+    h1{
+        margin-top: 1rem;
+    }
+}
+
+.app__hotdrop-sections{
+    margin: 0;
+    flex-wrap: wrap;
+
+    button{
+
+    margin: .5rem .7rem;
+    cursor: pointer;
+
+    }
+}
+.app__hotdrop-cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-y: hidden;
+}

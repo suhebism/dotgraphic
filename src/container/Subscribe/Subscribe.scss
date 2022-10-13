@@ -1,0 +1,41 @@
+.app__subscribe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.app__subscribe-content{
+    background-color:rgb(5, 1, 42);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius: 10px;
+    padding: 2rem ;
+    color: white;
+}
+.app__subscribers-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    span{
+        margin: 1rem 2rem;
+
+        input{
+            width: 250px;
+            height: 25px;
+            padding: 0 1rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: white;
+            background-color: rgb(5, 1, 42);
+            border: 2px solid grey;
+        }
+    }
+
+    @media screen and (max-width:550px) {
+        flex-direction: column;
+    }
+}

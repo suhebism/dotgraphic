@@ -1,0 +1,51 @@
+.app__card{
+    width: 300px;
+    height: 470px;
+    background-color: black;
+    object-fit: cover;
+    border: 2px solid rgb(4, 0, 252);
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin: 1rem;
+    .app__card-img{
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    img{
+        width: 270px;
+        height: 270px;
+        object-fit: cover;
+        border-radius: 1rem;
+        
+    }
+    }
+    .app__card-content{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        color: white;
+        margin-top: -.5rem;
+
+        span {
+            font-size: 1.3rem;
+            padding-left: 1rem;
+            margin-top: -1.5rem;
+            font-weight: 500;
+            
+            h7{
+                color: rgb(196, 196, 196);
+                font-weight: 300;
+                font-size: 0.8rem;
+            }
+        }
+       
+    }
+    button{
+        margin: 0 1rem;
+    }
+}
+
